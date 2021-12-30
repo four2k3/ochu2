@@ -1,0 +1,100 @@
+table,th,td{
+    width: 40px;
+    height: 40px;
+  border:1.5px solid black;
+}
+table{
+    border:none
+}
+.squareFull{
+    position: relative;
+}
+.tableSquare{
+    /* width: 100%; */
+    border-collapse:collapse;
+
+}
+.contentSquare{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border: white;
+    outline: none;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+}
+.askIndex{
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.askIndexActivate{
+    background-color: rgba(247, 230, 0, 0.884);
+}
+.boxGame,.newGame{
+    width: 50%;
+}
+.boxNewGame{
+    padding: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.boxAnswer{
+    display: none;
+    padding: 20px 0;
+}
+.inputAnswer{
+    height: 20px;
+    font-size: 16px;
+}
+.btnAnswer{
+    height: 26px;
+}
+/*  */
+.boxNewGame {
+
+}
+.boxNewGame input{
+    width: 200px;
+    height: 25px;
+}
+.boxNewGame .newQuestion{
+    width: 400px;
+}
+.boxNewGame input::placeholder{
+    color: black !important;
+    opacity: 1;
+}
+.message_next{
+    font-style:italic;
+    /* display: none; */
+}
+.nextAsk, .finish,.boxNewGame {
+    display: none;
+}
+.rowTableFalse{
+    background-color: #ccc;
+}
+.rowTableTrue {
+    background-color: tomato;
+}
+.showQuestion{
+    background-color: pink;
+    width: 500px;
+    height: auto;
+}
+.textShowQuestion{
+    padding:1rem;
+    font-size: 20px;
+}
+button{
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div id="main">
+            <div class="boxGame">
+                <div class="titleGame">
+                    <h1>Ô CHỮ</h1>
+                </div>
+                <div class="squareFull">
+                    <table class="tableSquare">
+                        <!-- HTML render from JS -->
+                    </table>
+
+                </div>
+                <div class="boxAnswer">
+                    <div class="showQuestion">
+                        <p class="textShowQuestion"></p>
+                    </div>
+                    <input class="inputAnswer" placeholder="Câu trả lời ..." type="text"> 
+                    <button class="btnAnswer">Enter</button>
+                    <button class="showAnswer">Hiện đáp án</button>
+                </div>
+            </div>
+            <!-- New Game -->
+            <div class="newGame">
+                <button class="newGameBtn">Tạo lại</button>
+                <button class="nextAsk">Xong câu</button>
+                <button class="finish">Hoàn thành</button>
+                <div class="boxNewGame">
+                        <input  class="newQuestion" type="text" placeholder="Câu hỏi ?">
+                        <input class="newAnswer" type="text" placeholder="Đáp án">
+                </div>
+                <p class="message_next"></p>
+                <!-- <p class="message_finish"></p> -->
+                <p class="countAsk"></p>
+            </div>
+        </div>
+        <script src="./code.js"></script>
+</body>
+</html>
